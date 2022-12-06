@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,22 +21,26 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="link">
-      <nav>
-        <a class="link-logo" href="./index.html">Web<span class="link-logo-color">Studio</span></a>
-        <ul class="list">
-          <li><a class="menu-link current" href="./index.html">Studio</a></li>
-          <li><a class="menu-link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="menu-link" href="">Contacts</a></li>
+    <header class="link header">
+      <div class="container">
+        <nav class="nav-logo">
+          <a class="link-logo" href="./index.html"
+            >Web<span class="link-logo-color">Studio</span></a
+          >
+          <ul class="list menu-nav">
+            <li><a class="menu-link current" href="./index.html">Studio</a></li>
+            <li><a class="menu-link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="menu-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="list header-menu-contact">
+          <li><a class="menu-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="menu-contact" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li><a class="menu-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="menu-contact" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="primery-section">
+      <section class="primery-section section">
         <h1 class="primery-title">Effective Solutions for Your Business</h1>
         <button class="modal-btn" type="button">Order Service</button>
       </section>
@@ -66,7 +77,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2 class="title">What are we doing</h2>
         <ul class="list">
           <li><img src="./images/monitor.jpg" alt="monitor" width="360" height="300" /></li>
@@ -78,7 +89,7 @@
           </li>
         </ul>
       </section>
-      <section class="fone">
+      <section class="fone section">
         <h2 class="title">Our Team</h2>
         <ul class="list">
           <li class="fone-item">
