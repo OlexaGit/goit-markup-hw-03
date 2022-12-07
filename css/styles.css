@@ -113,13 +113,19 @@ footer {
 .primery-section {
   background-color: var(--background-color);
   color: var(--text-background-color);
+  text-align: center;
+  padding: 192px 0;
+  /* width: 1440px; */
 }
 .primery-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  /* margin-bottom: 48px; */
+  margin: 0 auto 48px auto;
+  width: 492px;
 }
 .modal-btn {
   font-family: inherit;
@@ -129,13 +135,15 @@ footer {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   letter-spacing: 0.04em;
   background: var(--accent-color-logo);
   cursor: pointer;
   color: var(--text-background-color);
+  padding: 16px 32px;
+  margin: auto;
 }
 .modal-btn:hover,
 .modal-btn:focus {
