@@ -188,13 +188,6 @@ footer {
 .advantages-list {
   width: 264px;
 }
-/* .container-advantages {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0px 15px;
-  justify-content: space-between;
-  display: flex;
-} */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -213,18 +206,17 @@ footer {
   display: block;
   justify-content: center;
 }
-/* .title-we-doing {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
-} */
 .we-doing {
-  width: 1158px;
+  width: 1128px;
   margin: 0 auto;
   display: flex;
 }
 .we-doing-list:not(:last-child) {
   margin-right: 24px;
+}
+.card-text {
+  padding: 32px 16px;
+  justify-content: center;
 }
 .fone {
   background-color: var(--footer-logo-color);
@@ -234,7 +226,7 @@ footer {
 }
 .container-our-team {
   display: block;
-  justify-content: center;
+  text-align: center;
 }
 .section {
   padding-top: 120px;
