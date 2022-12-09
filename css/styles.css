@@ -39,9 +39,6 @@ body {
 .logo-color-footer {
   color: var(--footer-logo-color);
 }
-.list {
-  list-style: none;
-}
 .menu-link {
   font-weight: 700;
   line-height: 1.5;
@@ -70,19 +67,18 @@ body {
 }
 footer {
   background-color: var(--background-color);
+  padding: 100px 0;
 }
 .footer-text {
   color: var(--text-background-color-footer);
   line-height: 1.5;
   width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0px 15px;
-  /* justify-content: space-between; */
-  /* display: flex; */
 }
 .container-footer {
   padding-top: 24px;
@@ -96,12 +92,11 @@ footer {
 }
 .menu-nav {
   display: flex;
-  padding-left: 77px;
+  margin-left: 77px;
   gap: 40px;
 }
 .header-menu-contact {
   display: flex;
-  /* padding-left: 0px; */
   gap: 40px;
   margin-left: auto;
 }
@@ -112,7 +107,7 @@ footer {
 .footer {
   width: 1158px;
   margin: 0 auto;
-  padding: 100px 15px;
+  padding: 0 15px;
 }
 
 /* -------------  STUDIO  ------------------*/
@@ -147,7 +142,7 @@ footer {
   cursor: pointer;
   color: var(--text-background-color);
   padding: 16px 32px;
-  margin: auto;
+  margin: 0 auto;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -185,7 +180,7 @@ footer {
   margin-right: 24px;
 }
 .advantages-list {
-  width: 264px;
+  /* width: 264px; */
 }
 .title {
   font-weight: 700;
@@ -194,7 +189,7 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   margin-bottom: 72px;
 }
@@ -214,7 +209,7 @@ footer {
   margin-right: 24px;
 }
 .card-text {
-  padding: 32px 16px;
+  padding: 32px 0;
   justify-content: center;
 }
 .fone {
@@ -233,7 +228,6 @@ footer {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-  margin: 0;
 }
 h1,
 h2,
@@ -296,11 +290,10 @@ ol {
   color: var(--text-background-color);
 }
 .portfplio-main {
-  padding-top: 96px;
+  /* padding-top: 96px; */
 }
 .navigation-list {
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin-bottom: 72px;
   justify-content: center;
   display: flex;
 }
@@ -309,14 +302,12 @@ ol {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 0;
-  list-style: none;
 }
 .card-set-list {
   flex-basis: calc((100% - 48px) / 3);
 }
 .card-set-text {
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 0.5px solid var(--footer-logo-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
